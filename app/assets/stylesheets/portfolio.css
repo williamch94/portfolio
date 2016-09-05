@@ -1,0 +1,295 @@
+/*.mystyle{
+
+height:100vh;
+width: 100vw;
+}*/
+#rig {
+    max-width:9000px;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#000;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+/*div.image {
+  background: url("https://images2.alphacoders.com/747/74712.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }*/
+
+
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+    top: 100px;
+
+}
+
+/*.col-sm-2 {
+font-family: cursive;
+text-align: center;
+font-size: 15px;
+}
+
+.img-circle{
+  margin-bottom: 20px;
+}
+.myimage{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+*,html,body{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.mystyle{
+
+}*/
+
+.section1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+#wrapper, img{
+    width:100%;
+    height: 100%;
+}*/
+/*.fa {
+  color: #000 !important;
+}*/
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+/* fullscreen setup */
+ html, body {
+
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.fullscreen.overflow,
+.fullscreen.overflow .content-a {
+    height:auto;
+    min-height:100%;
+}
+
+/* content centering styles */
+.content-a {
+	display:table;
+}
+.content-b {
+	display:table-cell;
+    position:relative;
+	vertical-align:middle;
+	text-align:center;
+}
+
+/* visual styles */
+#portfolio body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:28px;
+    line-height:100px;
+	   color:#ffffff;
+    text-align:center;
+}
+#portfolio section {
+	background:#9ed100;
+}
+.not-fullscreen {
+    height:50%;
+}
+
+#home body {
+  margin: 0;
+  background: #000;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade {
+   opacity: .5;
+}
+
+#william {
+font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+.video2 h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+/*#william button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}*/
+/*#william button:hover {
+   background: rgba(0,0,0,0.5);
+}*/
+
+.video2 a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background;
+}
+.video2 a:hover{
+  background:rgba(0,0,0,0.9);
+
+}
+#home @media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+#home @media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}*/
