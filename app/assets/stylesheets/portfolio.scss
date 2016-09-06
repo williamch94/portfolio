@@ -175,6 +175,13 @@ font-size: 15px;
 	text-align:center;
 }
 
+.content-c {
+	display:table-cell;
+    position:relative;
+	// vertical-align:middle;
+	text-align:center;
+}
+
 /* visual styles */
 #portfolio body{
     margin:0;
