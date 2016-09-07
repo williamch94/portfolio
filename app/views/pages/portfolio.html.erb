@@ -1,4 +1,4 @@
-
+<%= render 'partials/nav' %>
 <div class="fullscreen background" style="background-position:100% 50%;" data-img-width="1600" data-img-height="1064">
   <ul id="rig">
       <li>
@@ -137,14 +137,16 @@ Finished her are its honoured drawings nor. Pretty see mutual thrown all not edw
                       <h4 class="modal-title" id="myModalLabel">Language Skills</h4>
                       </div>
                       <div class="modal-body">
-                        
+
 <ul class="skills">
 <li class="skill" aria-label="advanced">HTML & CSS</li>
-<li class="skill" aria-label="novice">Ruby</li>
-<li class="skill" aria-label="pro">Rails</li>
-<li class="skill" aria-label="average">Buidling a PC</li>
+<li class="skill" aria-label="average">Ruby</li>
+<li class="skill" aria-label="average">Rails</li>
+<li class="skill" aria-label="basic">JavaScript</li>
+<li class="skill" aria-label="basic">Node,Angular,React</li>
+<li class="skill" aria-label="pro">Buidling a PC</li>
 <li class="skill" aria-label="pro">English</li>
-<li class="skill" aria-label="pro">Mandarin</li>
+<li class="skill" aria-label="advanced">Mandarin</li>
 <li class="skill" aria-label="l33tasuar">Judging my own skills</li>
 </ul>
                       </div>
@@ -176,26 +178,90 @@ Finished her are its honoured drawings nor. Pretty see mutual thrown all not edw
         <div class="content-c">
             <br><br>My Work <br><br><br>
 
-            <div id="buttons">
-              <!-- <div class="butFrame" onclick="window.location='#'">
-                <div class="butText intro-text"><span class="introHeading">Heading Goes Here</span>
-                  <p>Bacon ipsum dolor amet jowl rump doner ribeye cupim andouille bresaola brisket shoulder spare ribs short ribs cow ham hock. Bacon ipsum dolor amet jowl rump doner ribeye cupim andouille bresaola brisket shoulder spare ribs short ribs cow ham hock.</p>
-                  <a>Learn more</a></div>
-                </div>
-
-                <img src="http://lorempixel.com/400/475/people"></div> -->
-              <div class="butFrame" onclick="www.google.com">
+            <div id="buttons2">
+<!-- the div id= button puts the boxes in the middle of the page, and not responsive to size. (makes the boxes smaller) -->
+              <div class="butFrame" onclick="" data-toggle="modal" data-target="#myModal">
                 <div class="butText"><span>UTS Hatchery</span></div>
                 <img src="http://lorempixel.com/400/250/abstract"></div>
-              <div class="butFrame" onclick="window.location='#'">
-                <div class="butText"><span>Ruby Project</span></div>
-                <img src="http://lorempixel.com/400/250/transport"></div>
-              <div class="butFrame" onclick="window.location='#'">
-                <div class="butText"><span>Heading</span></div>
-                <img src="http://lorempixel.com/400/250/sports"></div>
-              <div class="butFrame" onclick="window.location='#'">
-                <div class="butText"><span>Heading</span></div>
-                <img src="http://lorempixel.com/400/250/business"></div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">UTS Hatchery</h4>
+          </div>
+          <div class="modal-body">
+            Content goes here/screenshots/group members etc etc etc/links to my work et cwhy is everything changing????
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="butFrame" onclick="" data-toggle="modal" data-target="#myModal">
+      <div class="butText"><span>Ruby Project</span></div>
+      <img src="http://lorempixel.com/400/250/transport"></div>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <h4 class="modal-title" id="myModalLabel">Ruby Project</h4>
+</div>
+<div class="modal-body">
+  Content goes here/screenshots/group members etc etc etc/links to my code.
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="butFrame" onclick="" data-toggle="modal" data-target="#myModal">
+  <div class="butText"><span>UTS Project Pitch</span></div>
+  <img src="http://lorempixel.com/400/250/sports"></div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">UTS Project Pitch</h4>
+</div>
+<div class="modal-body">
+Content goes here
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+<div class="butFrame" onclick="" data-toggle="modal" data-target="#myModal">
+  <div class="butText"><span>UTS Poker Society</span></div>
+  <img src="http://lorempixel.com/400/250/business"></div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">UTS Poker Society</h4>
+</div>
+<div class="modal-body">
+Content goes here
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
             </div>
 </div>
 
@@ -292,10 +358,10 @@ the mail form goes here <br>
 </div>
 
 
-<div class="fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg');" data-img-width="1600" data-img-height="1064">
+<div class="fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg');" data-img-width="1600" data-img-height="1064" data-img-width="1600" data-img-height="1064">
     <div class="content-a">
         <div class="content-b">
-            footer image
+
         </div>
     </div>
 </div>
