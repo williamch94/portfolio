@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
 
   def portfolio
-    # @enquiry = Enquiry.new
+    @enquiry = Enquiry.new
   end
 
 end
