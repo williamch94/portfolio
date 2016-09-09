@@ -67,22 +67,23 @@ $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
 backgroundResize();
 
-var vid = document.getElementById("bgvid");
-var pauseButton = document.querySelector("#william button");
+// var vid = document.getElementById("bgvid");
+// var pauseButton = document.querySelector("#william button");
+//
+// function vidFade() {
+//   vid.classList.add("stopfade");
+// }
+//
+// vid.addEventListener('ended', function()
+// {
+// // only functional if "loop" is removed
+// vid.pause();
+// // to capture IE10
+// vidFade();
+// });
 
-function vidFade() {
-  vid.classList.add("stopfade");
-}
 
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed
-vid.pause();
-// to capture IE10
-vidFade();
-});
 
-$('#basicModal').modal(options);
 // pauseButton.addEventListener("click", function() {
 //   vid.classList.toggle("stopfade");
 //   if (vid.paused) {
@@ -93,6 +94,9 @@ $('#basicModal').modal(options);
 //     pauseButton.innerHTML = "Paused";
 //   }
 // })
+
+$('#basicModal').modal(options);
+
 var lang = {
   "html": "100%",
   "css": "90%",

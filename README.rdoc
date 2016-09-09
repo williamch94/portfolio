@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+There is 3 main page on my site. The landing page, which consist of a video of me, this leads to my portfolio.
+The portfolio is consist of 5 sections. the header = a picture of my head which shows something about me when the mouse hovers on,
+The about me section (which links to my resume, github, technical skills and blog).
+My Work section (shows example of my past work)
+and the Footer, which is just an image.
+The other page is the Blog, which I will add in future.
 
-Things you may want to cover:
+Design wise it was pretty simple, black and white home page and a colored portfolio page. I have opted for a sticky sidebar.
+I have used the Bootstrap Modal Javascript on a couple of occasions during my page, particularly on the My work section.
+The header will always take up the whole screen when first opened, no matter how big or small the users desktop screen is.
 
-* Ruby version
+Contact me form is pretty generic with just 4 fields. Designed taken by bootstrap. Overall the site is pretty simple to navigate through
+and usability heuristics is considered.
 
-* System dependencies
+First designed wireframes can be found here: https://williamchow.mybalsamiq.com/projects/portfolio/portfolio
+Note: things changes, so did my original plan.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
