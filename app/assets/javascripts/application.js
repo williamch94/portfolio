@@ -125,9 +125,4 @@ $.each( lang, function( language, pourcent) {
 // if (isPortrait()) {
 //     alert("This page is best viewed in landscape mode");
 // }
-
-
-
-if(window.innerHeight > window.innerWidth){
-    alert("Please use Landscape!");
-}
+ 
