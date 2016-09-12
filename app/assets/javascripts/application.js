@@ -118,3 +118,16 @@ $.each( lang, function( language, pourcent) {
   multiply++;
 
 });
+
+// function isPortrait() {
+//     return window.innerHeight > window.innerWidth;
+// }
+// if (isPortrait()) {
+//     alert("This page is best viewed in landscape mode");
+// }
+
+
+
+if(window.innerHeight > window.innerWidth){
+    alert("Please use Landscape!");
+}

@@ -1,18 +1,22 @@
 == README
 
-There is 3 main page on my site. The landing page, which consist of a video of me, this leads to my portfolio.
-The portfolio is consist of 5 sections. the header = a picture of my head which shows something about me when the mouse hovers on,
+There is 3 main page on my site. The landing page, which consist of a video of me (i will probably change the video to be more eye catching), this leads to my portfolio.
+The portfolio consist of 5 sections. the header = a picture of my head which shows something about me when the mouse hovers on,
 The about me section (which links to my resume, github, technical skills and blog).
-My Work section (shows example of my past work)
+My Work section (shows example of my past work as a student), a contact form
 and the Footer, which is just an image.
 The other page is the Blog, which I will add in future.
 
-Design wise it was pretty simple, black and white home page and a colored portfolio page. I have opted for a sticky sidebar.
+Design wise it was pretty simple, black and white home page and a colored portfolio page. I have opted for a sticky mini sidebar.
 I have used the Bootstrap Modal Javascript on a couple of occasions during my page, particularly on the My work section.
 The header will always take up the whole screen when first opened, no matter how big or small the users desktop screen is.
 
 Contact me form is pretty generic with just 4 fields. Designed taken by bootstrap. Overall the site is pretty simple to navigate through
-and usability heuristics is considered.
+and usability heuristics is considered. Favicon is a picture of my head.
+
+Font wise I mainly used Montserrat.
+
+The hardest part is to get this to be responsive, because I didn't use the bootstrap grid system !
 
 First designed wireframes can be found here: https://williamchow.mybalsamiq.com/projects/portfolio/portfolio
 Note: things changes, so did my original plan.
