@@ -7,9 +7,16 @@
 	<div class ="bar">
 				<ul>
 
-					<li><a href="http://willportfolio.herokuapp.com/" class="fa fa-home " target="_self">
+					<li>
+						<!-- <a href="http://willportfolio.herokuapp.com/" class="fa fa-home " target="_self">
+							<span>Home</span> -->
+							<!-- i need to root it to path -->
+							<%= link_to root_path, class: "fa fa-home" do %>
 							<span>Home</span>
-						</a>
+							<%end%>
+
+
+						<!-- </a> -->
 					</li>
 
 					<li><a href="#section-one" class="fa fa-user-plus" target="_self">

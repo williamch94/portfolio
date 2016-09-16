@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
@@ -125,4 +126,3 @@ $.each( lang, function( language, pourcent) {
 // if (isPortrait()) {
 //     alert("This page is best viewed in landscape mode");
 // }
- 
